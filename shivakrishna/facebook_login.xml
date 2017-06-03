@@ -7,13 +7,13 @@
     android:background="#3b5998"
     tools:context="com.example.root.facebook.MainActivity">
 
-<ImageView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:src="@drawable/fblogo"
-    android:layout_marginTop="70dp"
-    android:id="@+id/logo"/>
-    <TextView
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fblogo"
+        android:layout_marginTop="70dp"
+        android:id="@+id/logo"/>
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:id="@+id/userName"
@@ -21,10 +21,8 @@
         android:layout_marginTop="25dp"
         android:layout_below="@id/logo"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-
-        "/>
-    <TextView
+        android:layout_marginRight="20dp"/>
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:id="@+id/password"
@@ -32,8 +30,7 @@
         android:layout_marginTop="25dp"
         android:layout_below="@id/userName"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        "/>
+        android:layout_marginRight="20dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +55,7 @@
         android:textColor="@android:color/white"/>
 
 
-    <EditText
+    <TextView
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,7 +67,5 @@
         android:layout_marginLeft="35dp"
         android:layout_marginStart="35dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Dont't have an account, Signup!" />
+        android:text="Don't have an account,Signup!" />
 </RelativeLayout>
-
